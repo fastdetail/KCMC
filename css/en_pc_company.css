@@ -1,0 +1,268 @@
+/*공통부분*/
+.sub_top{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+  border-top: 90px solid #2dad60;
+  height: 590px;
+  background-image: url(../images/company_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sub_wrapper{
+  position: relative;
+}
+.sub_gnb{
+  position: relative;
+}
+.sub_gnb p{
+  font-size: 24px;
+  position: absolute;
+  right: 80px;
+  top: -70px;
+}
+
+.sub_gnb .product_text{
+  right: 190px;
+}
+.sub_gnb .company_text{
+  font-size: 30px;
+  font-weight: bold;
+  top: -75px;
+  right: 350px;
+}
+.sub_gnb .contact_text{
+  right: 80px;
+}
+.line{
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: #fff;
+  right: 320px;
+  top: -55px;
+}
+.sub_edu{
+  position: absolute;
+  top: 150px;
+}
+.first_edu{
+  font-size: 36px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  line-height: 40px;
+}
+.second_edu{
+  font-size: 52px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+.second_edu strong{
+  color: #2dad60;
+}
+.third_edu{
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+/*시작*/
+
+.company_wrapper{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+}
+.company_main{
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  color: #000;
+}
+.company_left{
+  font-size: 30px;
+}
+.under_hr,
+.under_hr_1{
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  width: 1100px;
+  height: 3px;
+  background-color: #2dad60;
+  border: none;
+}
+.under_hr_1{
+  top: 850px;
+}
+.company_edu{
+  position: relative;
+  color: #000;
+  width: 1050px;
+  top: 100px;
+}
+.beauty,
+.beauty_1{
+  position: absolute;
+  top: 3px;
+  width: 10px;
+  height: 20px;
+  background-color: #2dad60;
+}
+.company_edu h2,
+.company_edu_second h2{
+  font-size: 30px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.business_edu h2{
+  position: absolute;
+  top: -5px;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.company_edu p,
+.company_edu_second p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+}
+.company_edu .sign{
+  position: absolute;
+  font-weight: bold;
+  right: 0;
+  top: 710px;
+}
+.company_edu_second{
+  position: relative;
+  color: #000;
+  width: 1150px;
+  top: 230px;
+}
+
+.company_listbox{
+  position: relative;
+  top: 270px;
+}
+.beauty_2,
+.beauty_3,
+.beauty_4,
+.beauty_5{
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 10px;
+  height: 15px;
+  background-color: #2dad60;
+}
+.beauty_3{
+  left: 368px;
+}
+.beauty_4{
+  left: 728px;
+}
+.beauty_5{
+  top: -5px;
+}
+.company_list_left,
+.company_list_middle,
+.company_list_right{
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  color: #000;
+  font-size: 20px;
+}
+.company_list_middle{
+  left: 380px;
+}
+.company_list_right{
+  left: 740px;
+}
+.company_list{
+  position: relative;
+  width: 88%;
+  text-align: center;
+  border-spacing: 0;
+  border-top: 2px solid #c3c3c3;
+  border-bottom: 2px solid #c3c3c3;
+}
+.company_list td{
+  padding: 50px 0;
+  width: 300px;
+}
+.company_list .company_center{
+  border-left: 2px solid #c3c3c3;
+  border-right: 2px solid #c3c3c3;
+}
+.company_list td img{
+  width: 200px;
+}
+.company_list .company_year,
+.company_list .company_adress{
+  padding: 30px 0;
+}
+.company_list .company_adress{
+  width: 250px;
+}
+.moblie_adress{
+  display: none;
+}
+.business_edu{
+  position: relative;
+  top: 300px;
+  color: #000;
+}
+.business_first{
+  text-align: left;
+  position: absolute;
+  width: 850px;
+  top: 70px;
+  left: 200px;
+}
+.business_second{
+  text-align: right;
+  position: absolute;
+  width: 850px;
+  top: 200px;
+  right: 370px;
+}
+.business_main{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.business_middle{
+  font-size: 16px;
+  color: #45b36e;
+  line-height: 27px;
+  padding-bottom: 10px;
+}
+.business_bottom{
+  font-size: 16px;
+  line-height: 27px;
+}
+.left_img{
+  width: 150px;
+  top: 50px;
+  left: 30px;
+  position: absolute;
+}
+.right_img{
+  top: 170px;
+  right: 200px;
+  width: 150px;
+  position: absolute;
+}
+.footer_bg{
+  border-top: 3px solid #2dad60;
+  position: relative;
+  top: 770px;
+  background-color: #fff;
+  height: 180px;
+}

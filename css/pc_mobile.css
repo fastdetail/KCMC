@@ -1,0 +1,23 @@
+/*모바일*/
+
+#mobile_bar
+{
+  display: none;
+}
+
+#mobile_list {
+    position: fixed;
+    right: -260px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    color: #fff;
+    padding: 30px;
+    background: #222;
+    text-align: left;
+    z-index: 9999;
+    transition: all .7s ease-out;
+}
+#mobile{
+  background-color: #272727;
+}

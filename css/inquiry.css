@@ -1,0 +1,454 @@
+.main{
+  display: none;
+}
+#header{
+  position: relative;
+  height: 50px;
+  background-color: #2dad60;
+}
+#header h2{
+  position: absolute;
+  padding: 20px 0 0 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+#mobile_close{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+/*시작*/
+.inquiry_wrapper{
+  height: 1000px;
+  position: relative;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.inquiry_main{
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  color: #000;
+}
+.inquiry_left{
+  position: absolute;
+  font-size: 30px;
+}
+.inquiry_right{
+  font-size: 24px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+}
+.under_line{
+  position: absolute;
+  top: 7px;
+  left: 125px;
+  background-color: #000;
+  width: 2px;
+  height: 20px;
+}
+.under_hr{
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  width: 88%;
+  height: 3px;
+  background-color: #2dad60;
+  border: none;
+}
+.top_box{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+}
+.agree_box{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 83%;
+  height: 250px;
+  border: 1px solid #000;
+  overflow-y: scroll;
+}
+.agree_box h2{
+  padding: 20px 0 0 20px;
+  font-size: 18px;
+}
+.agree_box p{
+  padding: 20px 0 0 30px;
+  font-size: 16px;
+}
+.agree_box p strong{
+  padding: 20px 0 0 20px;
+  font-weight: 500;
+}
+.agree_box p em{
+  padding: 20px 0 0 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.infomation_agree{
+  position: absolute;
+  font-size: 16px;
+  top: 325px;
+  right: 70px;
+}
+.under_box{
+  padding-bottom: 150px;
+  position: relative;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.inquiry_box{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 83%;
+  height: 450px;
+  border-top: 2px solid #c3c3c3;
+  border-bottom: 2px solid #c3c3c3;;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
+.input_left{
+  position: absolute;
+  left: 0;
+}
+.input_right{
+  position: absolute;
+  right: 0;
+}
+[class*="contact_form_"]{
+  border: 1px solid #c3c3c3;
+  height: 78px;
+  position: relative;
+}
+
+.forlabel {
+  display: inline-block;
+  border-right: 1px solid #c3c3c3;
+  padding:  30px 0;
+  width: 22%;
+  background-color: #e9e9e9;
+}
+.top_label{
+  position: absolute;
+  left: 0;
+}
+.top_input{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25%;
+}
+.labelright{
+  border-left: 0;
+}
+.labelleft{
+  border-right: 0;
+}
+.forinput{
+  display: inline-block;
+  width: 70%;
+}
+.forinput input{
+  width: 96%;
+  height: 30px;
+  outline: none;
+  border-right: 1px solid #c3c3c3;
+}
+
+.input_bottom {
+  font-size: 18px;
+  position: relative;
+  z-index: -222;
+}
+.input_bottom .bottom_label{
+  position: absolute;
+  left: 0;
+  top: 234px;
+  padding: 99px 0;
+  width: 11%;
+  border-right: 1px solid #c3c3c3;
+  background-color: #e9e9e9;
+}
+#project_content {
+  position: absolute;
+  top: 234px;
+  right: 15px;
+  margin-top: 10px;
+  width: 83%;
+  border: 1px solid #c3c3c3;
+  height: 180px;
+  outline: none;
+  resize: none;
+}
+.submit_project{
+  position: absolute;
+  right: 0;
+  top: 490px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 145px;
+  height: 45px;
+  border: 0;
+  background-color: #2dad60;
+  outline: 0;
+}
+.in_place{
+  width: 630px;
+  border-right: 0;
+}
+.qr_place{
+  width: 11%;
+}
+.qr_place_1{
+  width: 87%;
+  left: 12%;
+}
+@media (max-width:768px) {
+  .under_hr{
+    width: 100%;
+  }
+  .sub_top{
+    border-top: 50px solid #2dad60;
+    height: 400px;
+  }
+  .sub_gnb p{
+    font-size: 14px;
+    right: 80px;
+    top: -40px;
+  }
+  .sub_gnb .company_text{
+    right: 80px;
+  }
+  .sub_gnb .product_text{
+    font-size: 18px;
+    top: -44px;
+    right: 170px;
+  }
+  .sub_gnb .contact_text{
+    right: 10px;
+  }
+  .line{
+    right: 154px;
+    top: -35px;
+  }
+  .sub_edu{
+    left: 10px;
+    top: 100px;
+  }
+  .first_edu{
+    font-size: 20px;
+  }
+  .second_edu{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .third_edu{
+    font-size: 12px;
+  }
+  /*시작*/
+  .inquiry_left{
+    position: absolute;
+    font-size: 24px;
+    left: 10px;
+  }
+  .inquiry_right{
+    font-size: 18px;
+    position: absolute;
+    left: 140px;
+    top: 5px;
+  }
+  .under_line{
+    position: absolute;
+    top: 7px;
+    left: 115px;
+    background-color: #000;
+    width: 2px;
+    height: 15px;
+  }
+  .inquiry_wrapper{
+    height: 900px;
+    position: relative;
+    top: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .top_box{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+  }
+  .agree_box{
+    left: 45%;
+    width: 85%;
+  }
+  .agree_box h2{
+    padding: 20px 0 0 10px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .agree_box p{
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+  }
+  .agree_box p strong{
+    padding: 10px 0 0 0;
+    font-weight: 500;
+  }
+  .agree_box p em{
+    padding: 10px 0 0 0;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .infomation_agree{
+    position: absolute;
+    font-size: 12px;
+    top: 325px;
+    right: 40px;
+  }
+  .infomation_agree input{
+    position: absolute;
+    right: 210px;
+  }
+  .under_box{
+    padding-bottom: 100px;
+    position: relative;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .inquiry_box{
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 84%;
+    height: 395px;
+    border-top: 2px solid #c3c3c3;
+    border-bottom: 2px solid #c3c3c3;;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+  }
+  .input_left{
+    position: absolute;
+    left: 0;
+  }
+  .input_right{
+    position: absolute;
+    top: 150px;
+  }
+  [class*="contact_form_"]{
+    border: 1px solid #c3c3c3;
+    height: 50px;
+    position: relative;
+  }
+
+  .forlabel {
+    display: inline-block;
+    border-right: 1px solid #c3c3c3;
+    padding:  18px 0;
+    width: 22%;
+    background-color: #e9e9e9;
+  }
+  .top_label{
+    position: absolute;
+    left: 0;
+  }
+  .top_input{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25%;
+  }
+  .labelright{
+    border-left: 0;
+    border-right: 0;
+  }
+  .labelleft{
+    border-left: 0;
+    border-right: 0;
+  }
+  .forinput{
+    display: inline-block;
+    width: 70%;
+  }
+  .forinput input{
+    width: 96%;
+    height: 20px;
+    outline: none;
+    border-right: 1px solid #c3c3c3;
+  }
+
+  .input_bottom {
+    font-size: 12px;
+    position: relative;
+    z-index: -222;
+  }
+  .input_bottom .bottom_label{
+    position: absolute;
+    left: 0;
+    top: 250px;
+    padding: 66px 0;
+    width: 22%;
+    border-right: 1px solid #c3c3c3;
+    background-color: #e9e9e9;
+  }
+  #project_content {
+    position: absolute;
+    top: 245px;
+    right: 15px;
+    margin-top: 10px;
+    width: 66%;
+    height: 130px;
+    outline: none;
+    resize: none;
+  }
+  .submit_project{
+    position: absolute;
+    right: 0;
+    top: 420px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: #2dad60;
+    outline: 0;
+  }
+
+  .footer_bg{
+    border-top: 2px solid #2dad60;
+    position: relative;
+    top: 650px;
+    background-color: #fff;
+    height: 180px;
+  }
+  #mobile_close img{
+    position: absolute;
+    right: -30px;
+    top: -15px;
+    width: 20px;
+  }
+  .in_place{
+    width: 252px;
+  }
+  .qr_place{
+    width: 22%;
+  }
+  .qr_place_1{
+    width: 70%;
+    left: 25%;
+  }
+}

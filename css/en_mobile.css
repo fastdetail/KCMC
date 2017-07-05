@@ -1,0 +1,110 @@
+/*모바일*/
+
+#mobile_bar
+{
+  display: none;
+}
+
+#mobile_list {
+    position: fixed;
+    right: -260px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    color: #fff;
+    padding: 30px;
+    background: #222;
+    text-align: left;
+    z-index: 9999;
+    transition: all .7s ease-out;
+}
+
+
+@media (min-width:200px) and (max-width:768px) {
+  #mobile_close{
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    width: 5%;
+  }
+
+  #mobile_home {
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  #mobile_shortcut {
+    position: relative;
+    z-index: 999;
+    font-size: 18px;
+    top: 15%;
+    color: #ffffff;
+  }
+
+  #mobile_shortcut li {
+    margin: 15px 0;
+  }
+
+  #mobile_shortcut .lang .mobile_eng{
+    left: 50px;
+  }
+  .under_bar{
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+    left: 40px;
+  }
+
+  #mobile_detail{
+    position: relative;
+    z-index: 999;
+    top: 20%;
+    font-size: 14px;
+    color: #dddcda;
+  }
+
+  #mobile_detail li {
+    line-height: 20px;
+    margin: 10px 0;
+  }
+
+  #mobile_detail img {
+    width: 100px;
+  }
+  #mobile_bar{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 20px;
+  }
+  #mobile_bar>a>img{
+    width: 100%;
+  }
+  .klang,
+  .elang{
+    top: 185px;
+    font-size: 12px;
+    position: absolute;
+  }
+  .elang{
+    left: 40px;
+  }
+  .pin{
+    position: absolute;
+    top: 190px;
+    left: 32px;
+    width: 1px;
+    height: 10px;
+    background: #fff;
+  }
+}
+/*모바일*/
+
+#mobile{
+  background-color: #272727;
+}

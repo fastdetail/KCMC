@@ -1,0 +1,306 @@
+
+/*공통부분*/
+.sub_top{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+  border-top: 90px solid #2dad60;
+  height: 590px;
+  background-image: url(../images/product_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sub_wrapper{
+  position: relative;
+}
+.sub_gnb{
+  position: relative;
+}
+.sub_gnb p{
+  font-size: 24px;
+  position: absolute;
+  right: 80px;
+  top: -70px;
+}
+
+.sub_gnb .company_text{
+  right: 190px;
+}
+.sub_gnb .product_text{
+  font-size: 30px;
+  font-weight: bold;
+  top: -75px;
+  right: 350px;
+}
+.sub_gnb .contact_text{
+  right: 80px;
+}
+.line{
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: #fff;
+  right: 320px;
+  top: -55px;
+}
+.sub_edu{
+  position: absolute;
+  top: 170px;
+}
+.first_edu{
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 10px;
+}
+.second_edu{
+  font-size: 52px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  line-height: 58px;
+}
+.second_edu strong{
+  color: #2dad60;
+}
+.third_edu strong{
+  color: #2dad60;
+}
+.third_edu{
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+/*시작*/
+
+.product_wrapper{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+}
+.product_main{
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  color: #000;
+}
+.product_left{
+  position: absolute;
+  font-size: 30px;
+}
+.product_right{
+  font-size: 24px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+}
+.under_line{
+  position: absolute;
+  top: 7px;
+  left: 125px;
+  background-color: #000;
+  width: 2px;
+  height: 20px;
+}
+.under_hr{
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  width: 88%;
+  height: 3px;
+  background-color: #2dad60;
+  border: none;
+}
+
+#tabs{
+  position: relative;
+  color: #999999;
+  top: 150px;
+}
+#tabs .toggle{
+  text-align: center;
+  position: absolute;
+  left: 7%;
+  transform: translateX(-50%);
+  padding: 15px 0;
+  outline: none;
+  padding-top: 20px;
+}
+#tabs .tab_2 a{
+  font-size: 24px;
+  padding-top: 15px;
+  color: #000;
+}
+#tabs .tab_3 a{
+  left: 67%;
+  font-size: 16px;
+}
+#tabs .tab_1 a{
+  left: 79%;
+  font-size: 16px;
+}
+#tabs .tab_4 a{
+  left: 25%;
+  font-size: 16px;
+}
+#tabs .tab_5 a{
+  left: 38%;
+  font-size: 16px;
+}
+#tabs .tab_6 a{
+  left: 54%;
+  font-size: 16px;
+}
+#tabs .tabs-menu li a:hover {
+  color: #000;
+}
+.none_br{
+  display: none;
+}
+.under_line_1{
+  position: absolute;
+  background-color: #000;
+  width: 2px;
+  height: 20px;
+  top: 18px;
+  left: 180px;
+}
+.beauty{
+  position: absolute;
+  top: 18px;
+  width: 10px;
+  height: 15px;
+  background-color: #2dad60;
+}
+.item_list{
+  position: relative;
+  top: 100px;
+  width: 88%;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  border-spacing: 0;
+  border: none;
+}
+.item_list tr{
+  height: 50px;
+  font-weight: 400;
+  line-height: 50px;
+
+}
+.item_list td{
+  border-bottom: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+}
+.item_list .item-img{
+  border-right: none;
+}
+.item_list .item-list-top{
+  background-color: #e9e9e9;
+  font-weight: bold;
+}
+.item_list tr a img{
+  vertical-align: middle;
+  width: 20px;
+}
+.cell_1{
+  width: 130px;
+}
+.cell_2{
+  width: 350px;
+}
+.cell_3{
+  width: 110px;
+}
+.cell_4{
+  width: 100px;
+}
+
+.item_list{
+  position: relative;
+  top: 100px;
+  width: 88%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  border-spacing: 0;
+  border: none;
+}
+.item-list-top td{
+  font-size: 18px;
+}
+.cell-5{
+  width: 130px;
+}
+.cell-6{
+  width: 100px;
+}
+.cell-7{
+  width: 110px;
+}
+.bulk p{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 103px;
+}
+.cell_8{
+  width: 130px;
+}
+.cell_9{
+  width: 280px;
+}
+.cell_10{
+  width: 100px;
+}
+.cell_11{
+  width: 200px;
+}
+.cell_12{
+  width: 90px;
+}
+.etc-td{
+  font-size: 16px;
+  line-height: 20px;
+}
+.inquiry{
+  position: relative;
+  top: 150px;
+  right: -20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 100px;
+  width: 550px;
+}
+.inquiry p{
+  position: absolute;
+  top: 70px;
+  font-size: 16px;
+  color: #000;
+}
+.beauty_1{
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 10px;
+  height: 15px;
+  background-color: #2dad60;
+}
+.inquiry .inquiry_project{
+  position: absolute;
+  top: 0;
+  font-size: 24px;
+}
+
+.inquiry input{
+  position: absolute;
+  top: 65px;
+  right: 0;
+  outline: 0;
+  background-color: #2dad60;
+  border: none;
+  padding: 5px 15px 8px 15px;
+  color: #fff;
+  font-size: 16px;
+}

@@ -1,0 +1,259 @@
+/*공통부분*/
+.sub_top{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+  border-top: 90px solid #2dad60;
+  height: 590px;
+  background-image: url(../images/inquiry_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sub_wrapper{
+  position: relative;
+}
+.sub_gnb{
+  position: relative;
+}
+.sub_gnb p{
+  font-size: 24px;
+  position: absolute;
+  right: 80px;
+  top: -70px;
+}
+
+.sub_gnb .company_text{
+  right: 190px;
+}
+.sub_gnb .product_text{
+  font-size: 30px;
+  font-weight: bold;
+  top: -75px;
+  right: 350px;
+}
+.sub_gnb .contact_text{
+  right: 80px;
+}
+.line{
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: #fff;
+  right: 320px;
+  top: -55px;
+}
+.sub_edu{
+  position: absolute;
+  top: 150px;
+}
+.first_edu{
+  font-size: 36px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.second_edu{
+  font-size: 52px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  line-height: 48px;
+}
+.second_edu strong{
+  color: #2dad60;
+}
+.third_edu{
+  font-weight: 500;
+  font-size: 24px;
+}
+/*시작*/
+
+.inquiry_wrapper{
+  min-width: 1200px;
+  position: relative;
+  top: 100px;
+}
+.inquiry_main{
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  color: #000;
+}
+.inquiry_left{
+  position: absolute;
+  font-size: 30px;
+}
+.inquiry_right{
+  font-size: 24px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+}
+.under_line{
+  position: absolute;
+  top: 7px;
+  left: 125px;
+  background-color: #000;
+  width: 2px;
+  height: 20px;
+}
+.under_hr{
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  width: 88%;
+  height: 3px;
+  background-color: #2dad60;
+  border: none;
+}
+.top_box{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+}
+.agree_box{
+  position: absolute;
+  top: 110px;
+  left: 43%;
+  transform: translateX(-50%);
+  width: 83%;
+  height: 250px;
+  border: 1px solid #000;
+  overflow-y: scroll;
+}
+.agree_box h2{
+  padding: 20px 0 0 20px;
+  font-size: 18px;
+}
+.agree_box p{
+  padding: 20px 0 0 30px;
+  font-size: 16px;
+}
+.agree_box p strong{
+  padding: 20px 0 0 20px;
+  font-weight: 500;
+}
+.agree_box p em{
+  padding: 20px 0 0 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.infomation_agree{
+  position: absolute;
+  font-size: 16px;
+  top: 375px;
+  right: 190px;
+}
+.under_box{
+  position: relative;
+  top: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.inquiry_box{
+  position: relative;
+  left: 43%;
+  transform: translateX(-50%);
+  width: 83%;
+  height: 450px;
+  border-top: 2px solid #c3c3c3;
+  border-bottom: 2px solid #c3c3c3;;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
+.input_left{
+  position: absolute;
+  left: 0;
+}
+.input_right{
+  position: absolute;
+  right: 0;
+}
+[class*="contact_form_"]{
+  border: 1px solid #c3c3c3;
+  height: 78px;
+  position: relative;
+}
+
+.forlabel {
+  display: inline-block;
+  border-right: 1px solid #c3c3c3;
+  padding:  30px 0;
+  width: 22%;
+  background-color: #e9e9e9;
+}
+.top_label{
+  position: absolute;
+  left: 0;
+}
+.top_input{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25%;
+}
+.labelright{
+  border-left: 0;
+}
+.labelleft{
+  border-right: 0;
+}
+.forinput{
+  display: inline-block;
+  width: 70%;
+}
+.forinput input{
+  width: 96%;
+  height: 30px;
+  outline: none;
+  border-right: 1px solid #c3c3c3;
+}
+
+.input_bottom {
+  font-size: 18px;
+  position: relative;
+  z-index: -222;
+}
+.input_bottom .bottom_label{
+  position: absolute;
+  left: 0;
+  top: 234px;
+  padding: 99px 0;
+  width: 11%;
+  border-right: 1px solid #c3c3c3;
+  background-color: #e9e9e9;
+}
+#project_content {
+  position: absolute;
+  top: 234px;
+  right: 30px;
+  margin-top: 10px;
+  width: 83.6%;
+  height: 180px;
+  outline: none;
+  resize: none;
+}
+.submit_project{
+  position: absolute;
+  right: 0;
+  top: 490px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 145px;
+  height: 45px;
+  border: 0;
+  background-color: #2dad60;
+  outline: 0;
+}
+
+.footer_bg{
+  border-top: 3px solid #2dad60;
+  position: relative;
+  top: 700px;
+  background-color: #fff;
+  height: 180px;
+}

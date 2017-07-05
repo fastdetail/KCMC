@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="canonical" href="http://www.kcmonomer.com">
+  <link rel="shortcut icon" href="./images/logo.png">
+  <meta name="description" content="LG화학 및 LG MMA의 agent로써, 기초화학제품을 안정적이며 경쟁력 있는 가격으로 공급합니다.">
+  <meta name="keywords" content="KCMC, KCMONOMER, ACRYLATE, MONOMER, MMA, BPA, PLASTIZIER, RESIGN, ETC ">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="KCMC">
+  <meta property="og:title" content="KCMC">
+  <meta property="og:url" content="http://www.kcmonomer.com">
+  <meta property="og:description" content="LG화학 및 LG MMA의 agent로써, 기초화학제품을 안정적이며 경쟁력 있는 가격으로 공급합니다.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="KCMC">
+  <meta name="twitter:description" content="LG화학 및 LG MMA의 agent로써, 기초화학제품을 안정적이며 경쟁력 있는 가격으로 공급합니다.">
+  <meta name="twitter:image" content="./images/logo.png">
+  <meta name="twitter:domain" content="http://www.kcmonomer.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" id="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/module.css">
+  <link rel="stylesheet" href="./css/total.css">
+  <link rel="stylesheet" href="./css/inquiry.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <title>KCMC</title>
+</head>
+<body id="inquiry_body">
+  <header id="header" class="clearfixafter">
+    <h2 class="main">헤더부분</h2>
+    <h2>문의하기</h2>
+    <div id="mobile_close" onclick="self.close()" style="cursor:pointer;" title ="클릭하시면 창이 닫힙니다."><img src="./images/mobile_x.png" alt="모바일X버튼"></div>
+  </header>
+  <section>
+    <h2 class="main">메인부분</h2>
+    <div class="wrapper inquiry_wrapper clearfixafter clearfix fade">
+      <form action="./php/email.php" class="col-12 fit" method="POST">
+          <div class="top_box">
+            <div class="agree_box">
+              <h2>개인정보 수집, 이용, 제공 동의</h2>
+              <p>
+                1. 수집하는 개인정보 항목<br>
+                <strong>가. 회사는 고객문의 응대 및 상담을 위해 아래와 같은 고객정보를 수집하고 있습니다.</strong><br>
+                <em>- 필수항목 : 이름, 이메일, 연락처, 문의유형, 제목, 내용</em><br>
+                <strong>나. 서비스 이용과정에서 아래와 같은 정보가 자동으로 생성되어 수집될 수 있습니다.</strong><br>
+                <em>- 서비스 이용기록(접속일시), 접속 IP 정보 , 통신내용</em><br>
+                <em>(고객상담실 상담사와 통화시에는 고객님의 권리보장과 서비스품질향상을 위해 통<em>화내용</em>이 녹음됩니다.)</em><br>
+              </p>
+              <p>
+                2. 개인정보의 수집 및 이용목적<br>
+                <strong>가. 개인정보의 수집 및 이용목적은 KCMC이 고객에게 맞춤화된 서비스를 제공하기 <em>위한</em>것입니다.</strong><br>
+                <strong>나. 본인 확인을 통해 고객의 각종 질문 및 요청사항의 민원을 처리하거나 서비스 <em>개선,
+                        변경</em> 등과 같은 전달사항을 고지하기 위한 것입니다.</strong><br>
+              </p>
+              <p>
+                3. 개인정보의 보유 및 이용기간<br>
+                <em>본 사에서 더 이상 개인정보를 보유하기 원치 않을 경우 언제라도 개인정보 삭제를 <em>요청할 수
+                    있으며 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합<em>니다.</em></em></em><br>
+                <em>회사 내부 방침에 의한 정보보유</em><br>
+                <em>- 보존항목 : 이름, 이메일, 연락처, 문의유형, 제목, 내용</em><br>
+                <em>- 보존 이유 : 서비스 이용의 혼선 방지 및 불법사용자에 대한 수사협조</em><br>
+                <em>- 보존 기간 : 문의처리 완료일로부터 1년</em>
+              </p>
+            </div>
+            <div class="infomation_agree">
+              <input type="checkbox" id="agree" name="agree" required>
+              <label for="agree">위의 <strong>'개인정보 수집·이용'</strong>에 동의합니다.</label>
+            </div>
+          </div>
+          <div class="under_box">
+            <div class="inquiry_box clearfixafter clearfix">
+              <div class="col-6 input_left fit clearfix">
+                <div class="contact_form_1 labelright col-12 fit">
+                  <div class="forlabel top_label"><label for="company">회사명</label></div>
+                  <div class="forinput top_input"><input class="contact_input" type="text" placeholder="회사명"  id="company" name="company"></div>
+                </div>
+                <div class="contact_form_2 labelright col-12 fit">
+                  <div class="forlabel top_label"><label for="phone_number">연락처</label></div>
+                  <div class="forinput top_input"><input type="tel" id="phone_number"  placeholder="[필수] 연락처" name="phone_number" required></div>
+                </div>
+                <div class="contact_form_3 in_place labelright col-12 fit">
+                  <div class="forlabel qr_place top_label"><label for="place">도착지역</label></div>
+                  <div class="forinput qr_place_1 top_input"><input type="text"  placeholder="도착지역" id="place" name="place"></div>
+                </div>
+              </div>
+              <div class="col-6 input_right fit clearfix">
+                <div class="contact_form_5 labelleft col-12 fit">
+                  <div class="forlabel top_label"><label for="name">이름</label></div>
+                  <div class="forinput top_input"><input type="text" placeholder="[필수] 이름" id="name" name="name" required></div>
+                </div>
+                <div class="contact_form_6 labelleft col-12 fit">
+                  <div class="forlabel top_label"><label for="email">이메일</label></div>
+                  <div class="forinput top_input"><input type="email" placeholder="[필수] E-mail" name="email" id="email" required></div>
+                </div>
+                <!-- <div class="contact_form_7 labelleft col-12 fit">
+                  <div class="forlabel top_label"><label for="date">방문일자</label></div>
+                  <div class="forinput top_input"><input type="date"  placeholder="방문일자" id="date" name="date"></div>
+                </div> -->
+              </div>
+              <div class="col-12 input_bottom">
+                <div class="bottom_label"><label for="project_content">내용</label></div>
+                <textarea name="project_content" id="project_content"></textarea><br>
+                <div class="col-12 fit">
+                  <input type="submit" value="문의 하기" class="submit_project" name="submit">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="./js/mobile.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/resize.js"></script>
+  <script>
+      $(document).ready( function(){
+        popup2();
+      });
+  </script>
+</body>
+</html>
